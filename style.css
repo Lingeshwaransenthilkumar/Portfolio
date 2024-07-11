@@ -558,6 +558,7 @@ About section
 .about-text{
     width: 60%;
     padding: 0 15px;
+    margin-bottom:20px;
 
 }
 .about-img .img-box{
