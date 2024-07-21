@@ -215,7 +215,7 @@ img{
     max-width: 360px;
     background-color: var(--white-alpha-25);
     border-radius: 50%;
-    border: 8px solid var(--white-alpha-25);
+    border: 6px solid var(--white-alpha-25);
     margin: auto;
 
 }
@@ -553,17 +553,22 @@ About section
 .about-img{
     width: 40%;
     padding: 0 15px;
+    margin-top: 20px;
 }
 .about-text{
     width: 60%;
     padding: 0 15px;
+    margin-bottom: 135px;
+
+
 }
 .about-img .img-box{
     background-color: var(--white-alpha-25);
     border-radius: 1px solid var(--white-alpha-40);
     max-width: 380px;
-    margin: auto;
     border-radius: 10px;
+    margin: auto;
+
 }
 .about-img .img-box img{
     width: 100%;
@@ -919,6 +924,11 @@ responsive
     .about-img,
     .about-text{
         width: 100%;
+    }
+    .about-text{
+        padding-top: 20px;
+        padding-left: 20px;
+
     }
     .portfolio-item{
         width: calc(100% - 30px);
